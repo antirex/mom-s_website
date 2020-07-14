@@ -1,0 +1,155 @@
+body {
+  background-color: white;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+html {
+  --scrollbarBG: #ffffff;
+  --thumbBG: #00ff7f;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+.about {
+  padding: 4rem 1rem;
+  margin: 2rem 0.5rem;
+}
+.image {
+  margin: 2rem 0rem 0 0;
+  height: 100%;
+  border: 0px solid #ffffff;
+  border-radius: 1.4rem;
+  overflow-y: hidden;
+}
+.image:hover {
+  transform: scale(1.03);
+  overflow: hidden;
+  box-shadow: 0 13px 6px -6px rgb(132, 255, 132);
+  transition: ease-in-out 0.25s;
+}
+.details {
+  font-size: 19pt;
+  color: #707070;
+}
+.button {
+  border: 5px solid #00ff7f;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 0.5rem 7rem;
+  margin-top: 1.5rem;
+  color: black;
+}
+.button:hover {
+  border: 5px solid white;
+  border-radius: 0;
+  font-weight: bold;
+  letter-spacing: 2.8px;
+  color: #000000;
+  background-color: #00ff7f;
+}
+.main-heading {
+  margin: 4rem 1rem 7rem 1rem;
+  padding: 7rem 0rem;
+  text-align: center;
+  border: 5px solid black;
+}
+.main-heading h1 {
+  padding: 1rem 4rem 1rem 5rem;
+  font-size: 5rem;
+}
+.heading {
+  margin: 6rem 0rem 1rem 0;
+  text-align: left;
+  font-weight: 200;
+  font-size: 3.3rem;
+}
+.navbar {
+  font-family: "Montserrat";
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 14pt;
+  background-color: #00ff7f;
+}
+
+/* Navbar */
+.navbar a {
+  color: rgb(0, 0, 0);
+}
+
+.navbar a:hover {
+  color: rgb(116, 111, 111);
+}
+
+/* Navbar Toggler */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(25,55,25)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  border-radius: 3px;
+  padding: 19px;
+}
+
+/* Navbar Outline */
+.navbar .navbar-toggler {
+  outline: none;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-radius: 2rem;
+  margin: auto;
+  padding-left: 42px;
+  padding-right: 42px;
+}
+.treatment{
+    margin: 2rem;
+    padding: 3rem;
+}
+.card{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    font-size: 1.5;
+    padding: 1.3rem;
+    box-shadow: 1px 1px 1.55px 1px rgb(173, 173, 173);
+    color: #707070;  
+    opacity: 0.85;
+}
+.opaz{
+    opacity: 0.8;
+}
+.card:hover{
+    border-radius: none;
+    transform: scale(1.085);
+    font-weight: bold;
+    opacity: 1;
+}
+.card-header{
+    margin-top: 1rem;
+    border: none;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    color: #00ff7f;
+}
+.heading-treatments{
+    padding: 1rem 4rem 1rem 5rem;
+    font-size: 4rem;
+    text-align: center;     
+}
+.xyz{
+    margin-top: 9rem;
+}
