@@ -62,10 +62,15 @@ body::-webkit-scrollbar-thumb {
   background-color: #00ff7f;
 }
 .main-heading {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
   margin: 4rem 1rem 7rem 1rem;
   padding: 7rem 0rem;
   text-align: center;
-  border: 5px solid black;
+  color: white;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 1rem;
 }
 .main-heading h1 {
   padding: 1rem 4rem 1rem 5rem;
@@ -91,7 +96,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navbar a:hover {
-  color: rgb(116, 111, 111);
+  color: rgb(156, 156, 156);
 }
 
 /* Navbar Toggler */
@@ -120,11 +125,11 @@ body::-webkit-scrollbar-thumb {
     padding: 3rem;
 }
 .card{
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(206, 206, 206);
     border-radius: 0.5rem;
     font-size: 1.5;
     padding: 1.3rem;
-    box-shadow: 1px 1px 1.55px 1px rgb(173, 173, 173);
+    line-height: 1.7rem;
     color: #707070;  
     opacity: 0.85;
 }
@@ -135,6 +140,8 @@ body::-webkit-scrollbar-thumb {
     border-radius: none;
     transform: scale(1.085);
     font-weight: bold;
+    color: rgb(0, 0, 0);
+    
     opacity: 1;
 }
 .card-header{
@@ -147,9 +154,35 @@ body::-webkit-scrollbar-thumb {
 }
 .heading-treatments{
     padding: 1rem 4rem 1rem 5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     font-size: 4rem;
     text-align: center;     
 }
 .xyz{
     margin-top: 9rem;
+}
+.carousel{
+    padding: 5rem 10rem;
+    background-color: black;
+    color: white;
+}
+.carousel-control-prev {
+    margin-left: -4rem;
+   
+}
+.carousel-control-next{
+    margin-right: -4rem;
+   
+}
+.carousel-item{
+    color: #707070;
+    font-size: 2rem;
+    text-align: center;
+}
+.test-img{
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 6.5rem;
+    margin:1rem 2rem 3rem 2rem;
 }
