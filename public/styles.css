@@ -237,7 +237,8 @@ footer{
   
 }
 .faq button:hover{
-  color: #000000;
+  color: #ffffff;
+  font-weight: bold;
   text-decoration: none;
   background-color: #00ff7f;
   transition: ease-in-out 0.5s;
