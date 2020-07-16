@@ -295,7 +295,9 @@ sub{
 and (max-height : 1920px)
 {
   body {
-    background-color: lightblue;
+    background-color: white;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
   }
   .main-heading {
     background: #0F2027;  /* fallback for old browsers */
@@ -320,12 +322,55 @@ and (max-height : 1920px)
     width: 80%;
     border: 0px solid #ffffff;
     border-radius: 1.4rem;
-    overflow-y: hidden;
   }
   .image:hover {
     transform: scale(1.03);
-    overflow: hidden;
     box-shadow: 0 13px 6px -6px rgb(132, 255, 132);
     transition: ease-in-out 0.25s;
   }
+  .heading-treatments{
+    padding: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    text-align: center;     
+}
+.card1{
+  border: 2px solid rgb(206, 206, 206);
+  border-radius: 0.5rem;
+  font-size: 1.5;
+  margin: auto;
+  line-height: 1.7rem;
+  color: #707070;  
+  opacity: 0.85;
+  
+}
+.carousel{
+    padding: 2rem 1rem;
+    color: white;
+}
+.carousel-control-prev {
+    margin-left: -1.3rem;
+   
+}
+.carousel-control-next{
+    margin-right: -1.3rem;
+   
+}
+.carousel-item{
+    color: #707070;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    
+}
+.faq{
+ margin: 0rem;
+  padding: 0rem;
+}
+.faq .card-body{
+  color: #707070;
+  font-size: 1rem;
+  text-align: left;
+  border-left: 3px inset black;
+}
 }
