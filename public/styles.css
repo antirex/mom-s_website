@@ -373,4 +373,10 @@ and (max-height : 1920px)
   text-align: left;
   border-left: 3px inset black;
 }
+hr{ 
+    text-align: center;
+    width: 10rem;
+    border: 1.3px solid rgb(207, 207, 207);
+    border-radius: 200rem;
+}
 }
