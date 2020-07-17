@@ -173,6 +173,9 @@ footer{
 .opaz{
     opacity: 0.8;
 }
+.h1, h1 {
+  font-size: 5rem;
+}
 .card1:hover{
     border-radius: none;
     transform: scale(1.085);
@@ -193,11 +196,10 @@ footer{
     padding: 1rem 4rem 1rem 5rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
-    
     text-align: center;     
 }
 .heading-treatments h1{
-  font-size: 4rem;
+  font-size: 5rem;
 }
 .xyz{
     margin-top: 10rem;
@@ -268,14 +270,14 @@ footer{
 }
 .button3{
   border: 5px solid #00ff7f;
-  background-color: #000000;
+  background-color: #ffffff;
   padding: 1rem;
   margin-top: 1.5rem;
   margin-bottom: 1.3rem;
   cursor: pointer;
   font-weight: bold;
   letter-spacing: 2.3px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .button3:hover{
   border: 5px solid #00ff7f;

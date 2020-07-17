@@ -139,6 +139,14 @@ body::-webkit-scrollbar-thumb {
   padding: 1rem 0rem;
   text-align: center;
 }
+#faq{
+  margin: 1rem -3rem 1rem 0;
+  padding: 1rem;
+  text-align: center;
+}
+.h1, h1 {
+  font-size: 3rem;
+}
 .faq .card-body {
   color: #707070;
   margin: 1rem -6rem 0 0rem;
@@ -168,11 +176,11 @@ body::-webkit-scrollbar-thumb {
 }
 .button3 {
   border: 5px solid #00ff7f;
-  background-color: #000000;
+  background-color: #ffffff;
   cursor: pointer;
   font-size: 11.5px;
   letter-spacing: 0.1px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .small-scr {
   font-size: 1rem;
