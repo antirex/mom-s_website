@@ -1,31 +1,30 @@
-
 html {
-    --scrollbarBG: #000000;
-    --thumbBG: #00ff7f;
-  }
-  body::-webkit-scrollbar {
-    width: 5px;
-  }
-  body {
-    scrollbar-width: thin;
-    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
-  }
-  body::-webkit-scrollbar-track {
-    background: var(--scrollbarBG);
-  }
-  body::-webkit-scrollbar-thumb {
-    background-color: var(--thumbBG);
-    border-radius: 6px;
-    border: 5px solid var(--scrollbarBG);
-  }
-  .navbar{
-      background-color: rgb(255, 255, 255);
-      color: rgb(0, 0, 0);
-  }
-  .nav-item{
-      float: left;
-  }
-  .main-heading {
+  --scrollbarBG: #000000;
+  --thumbBG: #00ff7f;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 5px solid var(--scrollbarBG);
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.nav-item {
+  float: left;
+}
+.main-heading {
   background: #0f2027; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -42,7 +41,7 @@ html {
   text-align: center;
   color: white;
   padding: 1rem 0rem;
-  margin: 6rem 1rem 2rem 1rem;
+  margin: 10rem 1rem -3rem 1rem;
   border: 5px solid rgb(255, 255, 255);
   border-radius: 1rem;
 }
@@ -50,10 +49,10 @@ html {
   font-size: 2.5rem;
   padding: 2.7rem;
 }
-.heading{
-    text-align: left;
-    font-size: 3rem;
-    margin-bottom: 1rem;
+.heading {
+  text-align: left;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 .about {
   padding: 1rem 0rem;
@@ -63,10 +62,10 @@ html {
   font-size: 15.7pt;
 }
 .abc {
-  text-align: left;
+  margin-left: 2px;
+  text-align: center;
 }
 .button2 {
-  
   background-color: #00ff7f;
   border-radius: 1rem;
   display: inline;
@@ -82,17 +81,17 @@ html {
   color: black;
 }
 .image {
-    display: none;
+  display: none;
 }
 
 .heading-treatments {
   margin-top: 1rem;
   margin-bottom: 3rem;
-    padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem;
   text-align: center;
 }
-.heading-treatments h1{
-     font-size: 2.5rem;
+.heading-treatments h1 {
+  font-size: 2.5rem;
 }
 .treatment {
   margin: 0rem;
@@ -113,11 +112,11 @@ html {
   padding: 2rem 1.05rem;
   color: white;
 }
-.test-img{
-    border: 3px solid white;
-    border-radius: 100%;
-    padding: 4rem;
-    margin:1rem 2rem 3rem 2rem;
+.test-img {
+  border: 3px solid white;
+  border-radius: 100%;
+  padding: 4rem;
+  margin: 1rem 2rem 3rem 2rem;
 }
 .carousel-control-prev {
   margin-left: 1px;
