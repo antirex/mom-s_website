@@ -1,133 +1,186 @@
 
+html {
+    --scrollbarBG: #000000;
+    --thumbBG: #00ff7f;
+  }
+  body::-webkit-scrollbar {
+    width: 5px;
+  }
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 6px;
+    border: 5px solid var(--scrollbarBG);
+  }
+  .navbar{
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+  }
+  .nav-item{
+      float: left;
+  }
   .main-heading {
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
-    text-align: center;
-    color: white;
-    margin-bottom: none;
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 1rem;
-  }
-  .main-heading h1 {
-    font-size: 2.5rem;
-    padding: 0rem;
-  }
-  
-  .about{
-    padding: 1rem 0rem;
-    margin: 1rem 0rem;
-    
-  }
-  .abc{
-      text-align: left;
-  }
-  .button2{
-    border: 5px solid #ffffff;
-    background-color: #00ff7f;
-    border-radius: 1rem;
-    display: inline;
-    color: black;
-  }
-  .button {
-    border: 5px solid #00ff7f;
-    background-color: #ffffff;
-    border-radius: 1rem;
-    margin-top: 1.5rem;
-    color: black;
-  }
-  .image {
-    display: none;
-  }
-  
-  .heading-treatments{
-    padding: 1rem 4rem 0 2rem;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  color: white;
+  padding: 1rem 0rem;
+  margin: 6rem 1rem 2rem 1rem;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 1rem;
+}
+.main-heading h1 {
+  font-size: 2.5rem;
+  padding: 2.7rem;
+}
+.heading{
+    text-align: left;
     font-size: 3rem;
-    text-align: center;     
+    margin-bottom: 1rem;
 }
-.treatment{
-    margin: 0rem;
-    padding:1px
+.about {
+  padding: 1rem 0rem;
+  margin: 1rem 0rem;
 }
-.card1{
+.details {
+  font-size: 15.7pt;
+}
+.abc {
+  text-align: left;
+}
+.button2 {
+  
+  background-color: #00ff7f;
+  border-radius: 1rem;
+  display: inline;
+  padding: 1rem 8rem;
+  color: black;
+}
+.button {
+  border: 8px solid #00ff7f;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1rem 8rem;
+  margin-top: 1.5rem;
+  color: black;
+}
+.image {
+    display: none;
+}
+
+.heading-treatments {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+    padding: 1rem 1.5rem;
+  text-align: center;
+}
+.heading-treatments h1{
+     font-size: 2.5rem;
+}
+.treatment {
+  margin: 0rem;
+  padding: 1px;
+}
+.card1 {
   border: 2px solid rgb(206, 206, 206);
   border-radius: 0.5rem;
   font-size: 1rem;
   padding: 2px;
-  text-align:left ;
+  text-align: left;
   margin-bottom: 2rem;
   line-height: 1.6rem;
-  color: #707070;  
+  color: #707070;
   opacity: 0.85;
-  
 }
-.carousel{
-    padding: 2rem 1rem;
-    color: white;
+.carousel {
+  padding: 2rem 1.05rem;
+  color: white;
+}
+.test-img{
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 4rem;
+    margin:1rem 2rem 3rem 2rem;
 }
 .carousel-control-prev {
-    margin-left: -1.3rem;
-    width: 13.55%;
+  margin-left: 1px;
+  margin-bottom: 280px;
+  width: 13.55%;
 }
-.carousel-control-next{
-    margin-right: -1.3rem;
-    width: 13.55%;
+.carousel-control-next {
+  margin-bottom: 280px;
+  margin-right: 1px;
+  width: 13.55%;
 }
-.carousel-item{
-    color: #707070;
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
-    
+.carousel-item {
+  color: #707070;
+  font-size: 1.5rem;
+  margin: auto;
+  padding-bottom: 1rem;
 }
-.faq{
+.faq {
   margin: 2rem 4rem 0 0;
   padding: 1rem 0rem;
   text-align: center;
 }
-.faq .card-body{
+.faq .card-body {
   color: #707070;
-  margin: 1rem 1rem 0 0rem;
+  margin: 1rem -6rem 0 0rem;
   padding: 1rem 1rem;
   font-size: 1.25rem;
   border-left: 3px inset black;
 }
-.faq button{
-    text-align: center;
-    color: black;
-    text-decoration: none;
-    font-size: 1.3rem;
-    padding: 1rem;
-    margin: 1rem 0rem;;
-    border: 0.2rem solid black;
-    
-  }
-#hide{
-    display: none;
+.faq button {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin: 1rem 0rem;
+  border: 0.2rem solid black;
 }
-.jumbotron{
-    padding: 1rem;
-    width: 100%;
+#hide {
+  display: none;
 }
-.display-4{
-    font-size:3rem;
-    text-align: center;
+.jumbotron {
+  padding: 1rem;
+  width: 100%;
 }
-.button3{
-    border: 5px solid #00ff7f;
-    background-color: #000000;
-    cursor: pointer;
-    font-size: 11px;
-    letter-spacing: 0.1px;
-    color: rgb(255, 255, 255);
-  }
-.small-scr{
-    font-size: 1rem;
+.display-4 {
+  font-size: 3rem;
+  text-align: center;
 }
-hr{ 
-    text-align: center;
-    width: 10rem;
-    border: 1.3px solid rgb(207, 207, 207);
-    border-radius: 200rem;
+.button3 {
+  border: 5px solid #00ff7f;
+  background-color: #000000;
+  cursor: pointer;
+  font-size: 11.5px;
+  letter-spacing: 0.1px;
+  color: rgb(255, 255, 255);
+}
+.small-scr {
+  font-size: 1rem;
+}
+hr {
+  text-align: center;
+  width: 10rem;
+  border: 1.3px solid rgb(207, 207, 207);
+  border-radius: 200rem;
 }
