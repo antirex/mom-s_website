@@ -8,3 +8,7 @@
 $(function () {
     $('[data-toggle="popover"]').popover()
   })
+
+  $(window).on("load", function(){
+    $(".loader-wrapper").fadeOut("fast");
+ });
