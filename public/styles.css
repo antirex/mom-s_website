@@ -125,7 +125,7 @@ footer{
   letter-spacing: 1px;
   font-size: 12pt;
   padding-bottom: 1rem;
-  background-color: #00ff7f;
+  background-color: #ffffff;
 }
 
 /* Navbar */
@@ -156,7 +156,7 @@ footer{
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: rgb(0, 0, 0);
-  background-color: #ffffff;
+  background-color: #00ff7f;
   border-radius: 2rem;
   margin: auto;
   padding-left: 42px;
