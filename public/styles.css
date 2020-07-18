@@ -307,8 +307,8 @@ footer{
   border: 5px solid #00ff7f;
   background-color: #ffffff;
   padding: 1rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.3rem;
+
+  
   cursor: pointer;
   font-weight: bold;
   letter-spacing: 2.3px;
@@ -318,9 +318,11 @@ footer{
   border: 5px solid #000000;
   background-color: #000000;
   padding: 1rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.3rem;
+  
+  
   cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2.3px;
   color: rgb(255, 255, 255);
 }
 .fa-mobile-alt, .fa-tty, .fa-envelope{
