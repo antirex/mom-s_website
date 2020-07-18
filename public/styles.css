@@ -97,7 +97,6 @@ footer{
   border: 5px solid white;
   border-radius: 0;
   font-weight: bold;
-  letter-spacing: 2.8px;
   padding: 0.5rem 7rem;
   margin-top: 1.5rem;
   margin-right: 2rem;
@@ -117,7 +116,6 @@ footer{
   border: 5px solid #00ff7f;
   border-radius: 0;
   font-weight: bold;
-  letter-spacing: 2.8px;
   padding: 0.5rem 7rem;
   margin-top: 1.5rem;
   margin-right: 2rem;
@@ -202,6 +200,10 @@ footer{
     color: #707070;  
     opacity: 0.85;
     
+}
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
 }
 .opaz{
     opacity: 0.8;
@@ -320,10 +322,6 @@ footer{
   margin-bottom: 1.3rem;
   cursor: pointer;
   color: rgb(255, 255, 255);
-}
-.button3:disabled {
-  cursor: not-allowed;
-  pointer-events: all !important;
 }
 .fa-mobile-alt, .fa-tty, .fa-envelope{
   text-align: left;

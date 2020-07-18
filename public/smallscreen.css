@@ -71,8 +71,23 @@ body::-webkit-scrollbar-thumb {
 .button2 {
   background-color: #00ff7f;
   border-radius: 1rem;
-  display: inline;
+  border: 8px solid #ffffff;
   padding: 1rem 8rem;
+  color: black;
+}
+.button2:hover{
+  background-color: #ffffff;
+  border: 8px solid #00ff7f;
+  border-radius: 1rem;
+  padding: 1rem 7.6rem;
+  color: black;
+}
+.button:hover{
+  border: 8px solid #ffffff;
+  background-color: #00ff7f;
+  border-radius: 1rem;
+  padding: 1rem 8rem;
+  margin-top: 1.5rem;
   color: black;
 }
 .button {
