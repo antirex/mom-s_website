@@ -1,3 +1,6 @@
+body,html{
+  overflow-x: hidden;
+}
 html {
   --scrollbarBG: #000000;
   --thumbBG: #00ff7f;
@@ -72,7 +75,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #00ff7f;
   border-radius: 1rem;
   border: 8px solid #ffffff;
-  padding: 1rem 8rem;
+  padding: 1rem 7.75rem;
   color: black;
 }
 .button2:hover{
