@@ -1,14 +1,12 @@
 (function ($) {
   "use strict";
-
-  // AOS Init
   AOS.init();
-
 })(jQuery);
-$(function () {
-    $('[data-toggle="popover"]').popover()
-  })
 
-  $(window).on("load", function(){
-    $(".loader-wrapper").fadeOut("fast");
- });
+$(function () {
+  $('[data-toggle="popover"]').popover();
+});
+
+$(window).on("load", function () {
+  $(".loader-wrapper").fadeOut("fast");
+});
