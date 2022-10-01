@@ -9,4 +9,5 @@ $(function () {
 
 $(window).on("load", function () {
   $(".loader-wrapper").fadeOut("fast");
+  console.log("cdn for animation work");
 });
