@@ -31,9 +31,9 @@ body::-webkit-scrollbar-thumb {
   background: #0f2027; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #2c5364,
-    #203a43,
-    #0f2027
+    #2c5367,
+    #203a41,
+    #0f2022
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
@@ -52,8 +52,8 @@ body::-webkit-scrollbar-thumb {
   display: none;
 }
 .main-heading h1 {
-  font-size: 2.5rem;
-  padding: 2.7rem;
+  font-size: 2.4rem;
+  padding: 2.6rem;
 }
 .heading {
   text-align: left;
@@ -65,7 +65,7 @@ body::-webkit-scrollbar-thumb {
   margin: 1rem 0rem;
 }
 .details {
-  font-size: 15.7pt;
+  font-size: 15.5pt;
 }
 .abc {
   margin-left: 2px;
