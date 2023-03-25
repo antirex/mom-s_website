@@ -339,3 +339,14 @@ sub{
 .abc {
   margin-left: 2px;
 }
+.d-flex{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem 0;
+}
+.pnch-img{
+  width: 18rem;
+  height: 15rem;
+  text-align: center;
+}
